@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sepatu Nike</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Nike<span>Store</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="Cari menu di sini...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="https://img.ncrsport.com/img/storage/large/DX3115-100-1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Croissant Butter</h3>
+          <div class="item-price">IDR 40K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/menu/Choco Lava Bread.jpeg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Choco Lava</h3>
+          <div class="item-price">IDR 55K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      
+      <div class="cart-footer">
+         <h4 class="cart-total">Total: IDR 95K</h4>
+         <a href="#" class="checkout-btn">Checkout Sekarang</a>
+      </div>
+    </div>
+
+  </nav>
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>SSelamat Datang Di<span>Toko Sepatu Nike</span></h1>
+      <p>tempat terbaik untuk mendapatkan sepatu berkualitas tinggi dengan model terkini. Kami berkomitmen menghadirkan produk yang nyaman, tahan lama, dan sesuai dengan kebutuhan Anda.</p>
+      <a href="#menu" class="cta">Beli Sekarang</a>
+    </main>
+  </section>
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//106/MTA-38911588/air_force_1_air_force_1-1_low_nike_and_the_mighty_swooshers_--_undefeated_blue_full01_uivr0qd8.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Kenapa memilih toko sepatu kami</h3>
+        <p>Karena sepatu kami dibuat dari bahan bagus, nyaman dipakai, dan cocok buat dipakai sehari-hari.</p>
+        <p>Kami percaya sepatu yang enak dipakai itu berasal dari bahan yang baik. Makanya, kami pilih bahan dengan teliti supaya kamu puas saat memakainya</p>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Pilih Sepatu Nike yang kamu inginkan</p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="https://img.ncrsport.com/img/storage/large/DX3115-100-1.jpg" alt="Croissant Butter Classic" class="menu-card-img">
+        <h3 class="menu-card-title">- Sepatu  Sneakers Classic -</h3>
+        <p class="menu-card-price">IDR 450K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/96/MTA-180442570/nike_sepatunike_air_max_impact_4_nikdm1124103_full01_gdvnbwk9.jpg" alt="Choco Lava Bread" class="menu-card-img">
+        <h3 class="menu-card-title">- Sepatu Nike Air Max -</h3>
+        <p class="menu-card-price">IDR 525K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://img.ncrsport.com/img/storage/large/DJ6566-104-1.jpg" alt="Soft Milk Bun" class="menu-card-img">
+        <h3 class="menu-card-title">- Sepatu Nike Zoom -</h3>
+        <p class="menu-card-price">IDR 800K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://senikersku.com/wp-content/uploads/2024/09/Nike-Air-Zoom-Alphafly-Next_-3-Volt-Concord-1.png" alt="Cheese Melt Toast" class="menu-card-img">
+        <h3 class="menu-card-title">- Sepatu Nike Zoom Alphafly -</h3>
+        <p class="menu-card-price">IDR 605K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://hypesneakerid.com/wp-content/uploads/2022/10/3-Nov-22-part-3-34-scaled.jpg" alt="Strawberry Cream Danish" class="menu-card-img">
+        <h3 class="menu-card-title">- Nike Jordan -</h3>
+        <p class="menu-card-price">IDR 288K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://www.footlocker.id/media/catalog/product/0/2/02-NIKE-FFSSBNIK5-NIKDM4044107-White.jpg" alt="Garlic Cream Bread" class="menu-card-img">
+        <h3 class="menu-card-title">- Sepatu Nike Cortez -</h3>
+        <p class="menu-card-price">IDR 135K</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Ingin rekomendasi sepatu yang bagus? Kami dengan senang hati membantu!</p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63340.02255584597!2d113.4317831307206!3d-7.15471455362698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd77e09e1df0443%3A0x220d11dc60ada51e!2sPamekasan%2C%20Kec.%20Pamekasan%2C%20Kabupaten%20Pamekasan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1764596587909!5m2!1sid!2sid"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+
+    </div>
+  </section>
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">M.AZZER AFIFI</a>. | © 2025.</p>
+    </div>
+  </footer>
+  <script>
+    feather.replace()
+  </script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
